@@ -17,7 +17,7 @@ main .main-content h2{
 }
 
 main .main-content .text{
-    margin-bottom: 8%;
+    margin-bottom: 5%;
 }
 
 main .main-content .text p{
@@ -52,4 +52,25 @@ main .techs .cards-container .card img{
 
 main .techs .cards-container .card:hover{
     box-shadow: 0px 0px 8px #00e0ff;
+}
+
+/* FIGURE */
+main figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main figure img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 6%;
+    border: 1px solid #00e0ff;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+main figure img:hover{
+    box-shadow: 0px 0px 6px #00e0ff;
 }
